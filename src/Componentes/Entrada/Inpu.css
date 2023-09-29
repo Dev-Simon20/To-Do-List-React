@@ -1,0 +1,38 @@
+.cont{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 150px;
+   width: 35%;
+   border-radius: 16px;
+   gap: .5em;
+   color: white;
+   background-color: #0a0a0a;
+   box-shadow: 5px 2px 8px rgb(255, 255, 255);
+   min-width: 350px;
+   
+}
+
+.cont-label{
+    
+}
+.cont-input{
+  width: 80%;
+  border-radius: 10px;
+  height: 40px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.cont-buton{
+  width: 35%;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(205, 213, 195);
+  cursor: pointer;
+}

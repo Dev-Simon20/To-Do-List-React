@@ -1,0 +1,44 @@
+.container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 5em;
+}
+
+.container-title{
+   margin-bottom: 50px;
+   font-weight: bold;
+   font-size: 3em;
+   position:relative;
+   text-align: center;
+}
+
+.container-title::before{
+   content: "";
+   position: absolute;
+   top: 100%;
+   width: 70%;
+   height: 3px;
+   transform: translate(20%);
+   background-color: white;
+   border-radius: 5px;
+  
+}
+
+.container-task{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.container-task-list{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 400px;
+}

@@ -1,0 +1,17 @@
+.conten-tarea{
+    min-width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    align-items: center;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.conten-tarea-text{
+    text-align: center;
+    text-wrap: wrap;
+    width: 275px;
+    padding-top: .5em;
+    height: 55px;
+}
