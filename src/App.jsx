@@ -17,7 +17,9 @@ function App() {
        <div className='container-task'>
        <Entrada extraer={extraer}/>
        <div className='container-task-list'>
-         {texto.map((t)=><List texto={t}/>)}
+        {/* El index es una propiedad del map y el key se tiene que pasar como parametro cuando se crean varios componentes de uno */}
+         {texto.map((t,index)=><List texto={t} key={index} />
+         )}
         </div>
        </div>
     </div>
