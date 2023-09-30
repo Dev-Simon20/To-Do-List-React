@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: 1px solid red;
+
   font-family: 'Roboto', sans-serif;
 
 }
@@ -10,7 +10,7 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding-top: 5em;
   min-height: 100vh;
   width: 100%;
   background-color: #000000;

@@ -6,6 +6,7 @@
     align-items: center;
     border-radius: 16px;
     margin-bottom: 10px;
+    background-color: #1a1a1a;
 }
 
 .conten-tarea-text{
@@ -14,4 +15,7 @@
     width: 275px;
     padding-top: .5em;
     height: 55px;
+}
+.trash:hover{
+  color: red;
 }
